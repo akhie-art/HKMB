@@ -1,0 +1,269 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+:root {
+  --warna1: #e1f7f5;
+  --warna2: #9ac8cd;
+  --warna3: #0e46a3;
+  --warna4: #1e0342;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+body {
+  width: 100dvw;
+  height: 100dvh;
+  background: url(../images/background.jpg) no-repeat;
+}
+@media only screen and (max-width: 600px) {
+  form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 0, 0, 0.052);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    width: 60%;
+    height: 40%;
+    border-radius: 10px;
+    padding: 10% 5% 5% 5%;
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.204);
+  }
+  .logo {
+    width: 100%;
+    height: 10%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30%;
+  }
+  .logo h1 {
+    color: white;
+  }
+  .input {
+    width: 100%;
+    height: 30%;
+    /* background-color: blue; */
+    display: grid;
+    margin-bottom: 15%;
+    padding: 0 15% 0 15%;
+  }
+  .input input {
+    width: 100%;
+    height: 70%;
+    border: none;
+    padding: 5%;
+    outline: none;
+    font-size: 0.7rem;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+  }
+  .input input::placeholder {
+    color: white;
+  }
+  .input input:focus {
+    border-bottom: solid 1px white;
+    transition: 0.8s ease-in-out;
+  }
+
+  .tbl-masuk {
+    width: 100%;
+    height: 15%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .tbl-masuk button {
+    width: 30%;
+    height: 100%;
+    border: none;
+    border-bottom: solid 1px white;
+    border-top: solid 1px white;
+    background-color: transparent;
+    padding: 2%;
+    border-radius: 5px;
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: white;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 10px 10px 2px rgba(0, 0, 0, 0.329);
+  }
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+:root {
+  --warna1: #e1f7f5;
+  --warna2: #9ac8cd;
+  --warna3: #0e46a3;
+  --warna4: #1e0342;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+body {
+  width: 100dvw;
+  height: 100dvh;
+  background: url(../images/background.jpg) no-repeat;
+}
+@media only screen and (max-width: 600px) {
+  .judul {
+    width: 100%;
+    height: 15%;
+    /* background-color: #0e46a3; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+  }
+  .konten-judul {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.394);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+  }
+  .konten-judul h1 {
+    color: white;
+  }
+  .nama-materi {
+    width: 100%;
+    height: 40%;
+    /* background-color: red; */
+    padding: 5%;
+  }
+  .konten-nama-materi {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.579);
+    border-radius: 10px;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+  }
+  .lingkaran {
+    width: 100%;
+    height: 20%;
+    /* background-color: green; */
+  }
+  .bulat {
+    width: 25%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bulat1 {
+    background-color: red;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+  }
+  .bulat2 {
+    background-color: yellow;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+  }
+  .bulat3 {
+    background-color: green;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+  }
+  .nama-materi2{
+    width: 100%;
+    height: 20%;
+    /* background-color: red; */
+    padding: 5%;
+    
+  }
+  .nama-materi2 h1{
+    font-size: 1rem;
+    color: white;
+  }
+  .deskripsi{
+    width: 100%;
+    height: 30%;
+    /* background-color: red; */
+    overflow: scroll;
+    padding: 5%;
+    margin-bottom: 6%;
+  }
+  .deskripsi p{
+    color: white;
+    font-size: .7rem;
+   
+  }
+
+  .tbl-lengkap{
+    width: 100%;
+    height: 10%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .tbl-lengkap a{
+    width: 30%;
+    height: 100%;
+    background-color: forestgreen;
+    border-radius: 5px;
+    font-size: .8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+  }
+  .navBarMobile {
+    width: 100%;
+    height: 15%;
+    /* background-color: red; */
+    position: fixed;
+    bottom: 0%;
+    padding: 0% 5% 0 5%;
+    display: flex;
+    justify-content: center;
+  }
+  .navBar {
+    width: 80%;
+    height: 80%;
+    background-color: rgba(0, 0, 0, 0.127);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: solid 2px rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 18%;
+  }
+  .navBar i {
+    color: white;
+    font-size: 2rem;
+    transition: 0.3s ease-in-out;
+  }
+  .navBar i:hover {
+    text-shadow: 0px 0px 2px white, 0px 0px 3px white, 0px 0px 15px aqua;
+    transition: 0.3s ease-in-out;
+  }
+ .kosong{
+    width: 100%;
+    height: 20%;
+ }
+}

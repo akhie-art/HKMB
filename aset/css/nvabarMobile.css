@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+:root {
+  --warna1: #e1f7f5;
+  --warna2: #9ac8cd;
+  --warna3: #0e46a3;
+  --warna4: #1e0342;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+body {
+  width: 100dvw;
+  height: 100dvh;
+  background: url(../images/background.jpg) no-repeat;
+}
+@media only screen and (max-width: 600px) {
+  form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 0, 0, 0.052);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    width: 60%;
+    height: 40%;
+    border-radius: 10px;
+    padding: 10% 5% 5% 5%;
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.204);
+  }
+  .logo {
+    width: 100%;
+    height: 10%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30%;
+  }
+  .logo h1 {
+    color: white;
+  }
+  .input {
+    width: 100%;
+    height: 30%;
+    /* background-color: blue; */
+    display: grid;
+    margin-bottom: 15%;
+    padding: 0 15% 0 15%;
+  }
+  .input input {
+    width: 100%;
+    height: 70%;
+    border: none;
+    padding: 5%;
+    outline: none;
+    font-size: 0.7rem;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+  }
+  .input input::placeholder {
+    color: white;
+  }
+  .input input:focus {
+    border-bottom: solid 1px white;
+    transition: 0.8s ease-in-out;
+  }
+
+  .tbl-masuk {
+    width: 100%;
+    height: 15%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .tbl-masuk button {
+    width: 30%;
+    height: 100%;
+    border: none;
+    border-bottom: solid 1px white;
+    border-top: solid 1px white;
+    background-color: transparent;
+    padding: 2%;
+    border-radius: 5px;
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: white;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 10px 10px 2px rgba(0, 0, 0, 0.329);
+  }
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+:root {
+  --warna1: #e1f7f5;
+  --warna2: #9ac8cd;
+  --warna3: #0e46a3;
+  --warna4: #1e0342;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+body {
+  width: 100dvw;
+  height: 100dvh;
+  background: url(../images/background.jpg) no-repeat;
+}
+@media only screen and (max-width: 600px) {
+  .logo {
+    width: 100%;
+    height: 30%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25%;
+  }
+  .konten-logo {
+    width: 40%;
+    height: 80%;
+    background-color: rgba(0, 0, 0, 0.127);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: solid 2px rgba(255, 255, 255, 0.05);
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .konten-logo img {
+    width: 50%;
+  }
+  .tulisan {
+    width: 100%;
+    height: 20%;
+    /* background-color: red; */
+    padding: 5%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .konten-tulisan {
+    padding: 5%;
+    /* box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.641); */
+    background-color: rgba(0, 0, 0, 0.127);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: solid 2px rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+  }
+  .konten-tulisan h2 {
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 400;
+    color: white;
+  }
+  .konten-tulisan h1 {
+    text-align: center;
+    color: white;
+  }
+
+  .navBarMobile {
+    width: 100%;
+    height: 15%;
+    /* background-color: red; */
+    position: fixed;
+    bottom: 0%;
+    padding: 0% 5% 0 5%;
+    display: flex;
+    justify-content: center;
+  }
+  .navBar {
+    width: 80%;
+    height: 80%;
+    background-color: rgba(0, 0, 0, 0.127);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: solid 2px rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 18%;
+  }
+  .navBar i {
+    color: white;
+    font-size: 2rem;
+    transition: 0.3s ease-in-out;
+  }
+  .navBar i:hover {
+    text-shadow: 0px 0px 2px white, 0px 0px 3px white, 0px 0px 15px aqua;
+    transition: 0.3s ease-in-out;
+  }
+ 
+}
