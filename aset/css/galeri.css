@@ -1,0 +1,131 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+:root {
+  --warna1: #e1f7f5;
+  --warna2: #9ac8cd;
+  --warna3: #0e46a3;
+  --warna4: #1e0342;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+body {
+  width: 100dvw;
+  height: 100dvh;
+  background: url(../images/background.jpg) repeat;
+  background-size: cover;
+}
+@media only screen and (max-width: 600px){
+  .nama-materi {
+    width: 100%;
+    height: 80%;
+    /* background-color: red; */
+    padding: 5%;
+  }
+  .konten-nama-materi {
+    width: 100%;
+    height: 80%;
+    background-color: rgba(0, 0, 0, 0.579);
+    border-radius: 10px;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+  }
+  .lingkaran {
+    width: 100%;
+    height: 10%;
+    /* background-color: green; */
+  }
+  .bulat {
+    width: 25%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bulat1 {
+    background-color: red;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+  }
+  .bulat2 {
+    background-color: yellow;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+  }
+  .bulat3 {
+    background-color: green;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+  }
+  .galeri{
+    width: 100%;
+    height: 70%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+  }
+  .galeri img{
+    width: 60%;
+
+  }
+  .pertemuan{
+    width: 100%;
+    height: 8%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .pertemuan p{
+    color: white;
+  }
+  
+  .navBarMobile {
+    width: 100%;
+    height: 15%;
+    /* background-color: red; */
+    position: fixed;
+    bottom: 0%;
+    padding: 0% 5% 0 5%;
+    display: flex;
+    justify-content: center;
+  }
+  .navBar {
+    width: 80%;
+    height: 80%;
+    background-color: rgba(0, 0, 0, 0.127);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: solid 2px rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 18%;
+  }
+  .navBar i {
+    color: white;
+    font-size: 2rem;
+    transition: 0.3s ease-in-out;
+  }
+  .navBar i:hover {
+    text-shadow: 0px 0px 2px white, 0px 0px 3px white, 0px 0px 15px aqua;
+    transition: 0.3s ease-in-out;
+  }
+ .kosong{
+    width: 100%;
+    height: 20%;
+ }
+    
+}
